@@ -42,7 +42,7 @@ GitHub is the only public source where governance actions leave time-stamped tra
 
 ---
 
-## 3. Evidence Categories (18 Total)
+## 3. Evidence Categories (19 Total)
 
 Each category includes: source artifacts, forensic value for ECI, and evidence status with explicit limitations.
 
@@ -52,6 +52,7 @@ Each category includes: source artifacts, forensic value for ECI, and evidence s
 
 - **Artifacts:** GOVERNANCE.md, CONTRIBUTING.md, CODE_OF_CONDUCT.md, security policy files, ADR/RFC directories, CODEOWNERS
 - **Forensic value:** Declared model of authority (roles, rights, veto, emergency powers). Baseline for Contradiction Mode.
+- **CODEOWNERS check (mandatory):** If CODEOWNERS file exists, compare required reviewers with observed merge/review actors. If formal authority matches observed concentration → formalized centralization (policy-driven, potentially legitimate). If formal authority does not match observed concentration → shadow authority (de-facto power exceeds declared roles — stronger governance risk signal).
 - **Status:** *Declared Governance Layer (GitHub) — officially published team position.*
 
 #### 3.2 Merge Authority Topology
@@ -143,15 +144,19 @@ Each category includes: source artifacts, forensic value for ECI, and evidence s
 
 ### NEW IN v2.0
 
-#### 3.14 Governance Latency Layer
+#### 3.14 Governance Latency Layer (3-Type Decomposition)
 
 - **Focus:** Latency asymmetry between commit, public discussion, vote, and deployment.
-- **Key signals:**
-  - Code committed significantly before public forum discussion?
-  - PR discussed privately, forum sees only "final version"?
-  - Deploy happens immediately after vote without realistic review window?
-- **Forensic value:** Detects *Governance Preparedness Bias* — if code is ready before public discussion, governance may be a formality. Critical for Lido and MakerDAO cases.
-- **Status:** *Governance Latency Evidence — temporal indicator; strongest when combined with forum analysis.*
+- **Three distinct measurements required:**
+
+| Latency Type | What It Measures | Signal If Anomalous |
+|-------------|------------------|-------------------|
+| Commit → Forum | Was code written before public discussion began? | Pre-baked governance: decisions made before community input |
+| Forum → Vote | Was there real deliberation time between proposal and vote? | Rubber-stamp voting: community given no meaningful window |
+| Vote → Deploy | Was there review time between approval and deployment? | Rushed deployment: no safety window for objections |
+
+- **Forensic value:** Detects *Governance Preparedness Bias* — if code is ready before public discussion, governance may be a formality. Critical for protocols claiming DAO governance (Lido, MakerDAO).
+- **Status:** *Governance Latency Evidence — temporal indicator; strongest when combined with forum analysis. All three sub-types must be measured independently.*
 
 #### 3.15 Release Sovereignty Indicator
 
@@ -179,7 +184,14 @@ Each category includes: source artifacts, forensic value for ECI, and evidence s
 - **Forensic value:** Proves real coordination happens in private Slack/Discord/Telegram. GitHub is used as a loading dock, not a workshop. For ECI: maximum opacity signal (Low Transparency Score).
 - **Status:** *Off-Platform Coordination Evidence — behavioral inference; indicative, not conclusive.*
 
-#### 3.18 Timezone Clustering
+#### 3.18 Foundation Residual Control Check
+
+- **Scope:** Who admins the GitHub organization? Who owns published npm/PyPI packages? Who controls Docker images used in production? Who operates oracle infrastructure?
+- **Forensic value:** If a foundation or single entity retains infrastructure control while declaring DAO governance, GitHub-level decentralization is decorative. The entity controlling deployment infrastructure holds the real veto over all governance decisions.
+- **Note:** This check extends beyond GitHub into adjacent infrastructure. It is listed here as a mandatory checkpoint; full investigation may require data beyond GitHub API.
+- **Status:** *Foundation Control Evidence — infrastructure-level; high impact when combined with Permission Bridge and Release Sovereignty findings.*
+
+#### 3.19 Timezone Clustering
 
 - **Method:** Timestamp analysis of commits to identify timezone clusters.
 - **Forensic value:** If "global community" operates on San Francisco time → coordination barrier for external participants is prohibitively high.
@@ -370,13 +382,30 @@ To maintain methodological credibility, COSMODROME explicitly documents known wa
 
 ### 7.2 Reporting Standard
 
-Each GitHub evidence finding in a forensic report must include:
+#### Evidence Integrity Block (Required)
 
-- **Finding:** what was observed
+Every COSMODROME forensic report or evidence file must begin with an Evidence Integrity Block:
+
+- Snapshot date (UTC)
+- Data source and extraction method
+- Repository state at snapshot (commits, contributors, stars)
+- Sample size and scope
+- Tooling used (or "manual review")
+- Reproducibility statement
+
+#### Finding Format (Required)
+
+Each GitHub evidence finding must include:
+
+- **Signal:** what was observed (factual, no interpretation)
+- **Interpretation hypothesis:** what the signal may indicate
+- **Benign explanation:** alternative non-malicious interpretation (required for every finding rated Medium or above)
 - **Evidence type:** which category from Section 3
 - **Confidence level:** High / Medium / Low (based on cross-validation)
 - **Cross-validation status:** Confirmed / Partially confirmed / Unconfirmed / Contradicted
 - **Limitations:** specific caveats from Section 6 that apply
+
+The separation of Signal and Interpretation is mandatory. Forensic credibility depends on the reader being able to distinguish observable facts from analyst conclusions. Including Benign Explanations for significant findings demonstrates intellectual honesty and protects against accusations of bias.
 
 ### 7.3 Red Flag Escalation Protocol
 
@@ -429,7 +458,7 @@ If any composite score exceeds its threshold: GCM > 0.7, GCDS > 0.5, POCI > 0.6,
 
 ### 9.2 Module Integration Text
 
-> GitHub-based Governance Evidence: COSMODROME systematically collects and classifies GitHub artifacts across 18 evidence categories organized in three operational modes (Structural, Temporal, Contradiction). Analysis is enhanced by LM/AI tools with strict Prompt Integrity Protocol and output governance rules (LM outputs trigger escalation, never score directly). Four composite metrics (GCM, GCDS, POCI, GMI) feed into ECI with nonlinear amplification for extreme concentration. All findings undergo mandatory cross-validation against on-chain and off-chain governance records. Known evasion patterns are explicitly documented. Red Flag Escalation Protocol ensures no critical signal is silently ignored. GitHub evidence does not verify financial positions, TVL, or token economics, and does not replace smart contract audits or legal structure analysis.
+> GitHub-based Governance Evidence: COSMODROME systematically collects and classifies GitHub artifacts across 19 evidence categories organized in three operational modes (Structural, Temporal, Contradiction). Analysis is enhanced by LM/AI tools with strict Prompt Integrity Protocol and output governance rules (LM outputs trigger escalation, never score directly). Four composite metrics (GCM, GCDS, POCI, GMI) feed into ECI with nonlinear amplification for extreme concentration. All findings undergo mandatory cross-validation against on-chain and off-chain governance records. Known evasion patterns are explicitly documented. Red Flag Escalation Protocol ensures no critical signal is silently ignored. GitHub evidence does not verify financial positions, TVL, or token economics, and does not replace smart contract audits or legal structure analysis.
 
 ### 9.3 Module Status
 
@@ -485,4 +514,4 @@ If any composite score exceeds its threshold: GCM > 0.7, GCDS > 0.5, POCI > 0.6,
 
 ---
 
-*Version 2.0 | February 2026 | COSMODROME Forensic Intelligence Framework*
+*Version 2.0.1 | February 2026 | COSMODROME Forensic Intelligence Framework*
