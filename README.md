@@ -1,18 +1,10 @@
-# COSMODROME
+# COSMODROME — Forensic Governance Research
 
-**Independent Forensic Governance Analysis**
+> We find what audits don't look for.
 
-COSMODROME is an independent research firm specializing in structural and governance risk assessment of decentralized protocols and staking infrastructure. We help institutional capital see what standard audits miss.
+Traditional risk management in crypto relies on two pillars: financial audits and smart contract reviews. Both are necessary. Neither is sufficient.
 
----
-
-## What We Do
-
-We analyze protocols as living systems with real political dynamics — not as static code repositories.
-
-Traditional risk management in crypto relies on two pillars: financial audits and smart contract security reviews. Both are necessary. Neither is sufficient.
-
-COSMODROME adds the missing layer: **governance forensics** — systematic analysis of who actually controls a protocol, how power is distributed, and what happens when that power is tested.
+COSMODROME adds the missing layer: governance forensics — systematic analysis of who actually controls a protocol, how power is distributed, and what happens when that power is tested.
 
 ---
 
@@ -20,39 +12,45 @@ COSMODROME adds the missing layer: **governance forensics** — systematic analy
 
     cosmodrome-research/
     ├── methodology/
-    │   ├── ECI-v1.0.md                      # Effective Coordination Index
-    │   └── GitHub-Forensic-Layer-v2.0.md     # GitHub evidence methodology
+    │   ├── ECI-v1.0.md                        # Effective Coordination Index
+    │   └── GitHub-Forensic-Layer-v2.0.md       # GitHub evidence methodology (19 categories)
     ├── cases/
     │   ├── 005-lido/
-    │   │   └── audit-checklist.md            # Lido governance audit checklist
-    │   └── README.md
+    │   │   ├── audit-checklist.md              # Investigation scope, status, gaps
+    │   │   └── evidence/
+    │   │       └── github-evidence-public.md   # Public evidence layer
+    │   └── README.md                           # Case index
     ├── LICENSE.md
     └── README.md
 
 ## Methodology
 
 - **ECI (Effective Coordination Index)** — framework for scoring governance centralization, coordination barriers, and exit feasibility.
-- **GitHub Forensic Layer** — 18 evidence categories across 3 analysis modes (Structural, Temporal, Contradiction) for assessing de-facto technical sovereignty through development governance evidence. Includes composite metrics: GCM, GCDS, POCI, GMI.
+- **GitHub Forensic Layer v2.0** — 19 evidence categories across 3 analysis modes (Structural, Temporal, Contradiction) for assessing de-facto technical sovereignty through development governance. Includes 4 composite metrics (GCM, GCDS, POCI, GMI), mandatory reporting standard with Signal/Interpretation/Benign separation, and Red Flag Escalation Protocol.
 
 ## Active Cases
 
-| Case | Protocol | Focus | Status |
-|------|----------|-------|--------|
-| #005 | Lido | Dual Governance, DSM control, development centralization | In Progress |
+| Case | Protocol | Archetype | Status |
+|------|----------|-----------|--------|
+| #005 | [Lido](cases/005-lido/) | Corporate-backed → Hybrid | In Progress — public evidence layer published |
 
 ## Who This Is For
 
-- Family offices and institutional allocators evaluating DeFi exposure
-- Governance researchers studying power concentration
-- Protocol teams seeking independent governance assessment
-- Risk committees requiring evidence-based governance reports
+- Institutional investors evaluating DeFi protocol governance risk
+- Fund managers conducting due diligence on token holdings
+- Risk committees assessing exposure to governance concentration
+- Researchers studying decentralization claims vs. operational reality
 
----
+## What We Publish vs. What We Don't
+
+**Public (this repository):** Methodology, anonymized evidence signals, investigation scope and gaps.
+
+**Client-only (under engagement):** Identity mapping, on-chain overlap analysis, scored reports, governance latency forensics, foundation infrastructure control assessment.
 
 ## Contact
 
-For inquiries about forensic governance assessments: [via GitHub Issues or direct contact]
+For inquiries about forensic governance assessments: [via GitHub Issues](https://github.com/cosmodrome-lab/cosmodrome-research/issues)
 
 ---
 
-*COSMODROME — We find what audits don't look for.*
+*COSMODROME — Forensic Intelligence Framework | February 2026*
