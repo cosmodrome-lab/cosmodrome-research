@@ -17,3 +17,42 @@ COSMODROME adds the missing layer: **governance forensics** — systematic analy
 ---
 
 ## Repository Structure
+
+    cosmodrome-research/
+    ├── methodology/
+    │   ├── ECI-v1.0.md                      # Effective Coordination Index
+    │   └── GitHub-Forensic-Layer-v2.0.md     # GitHub evidence methodology
+    ├── cases/
+    │   ├── 005-lido/
+    │   │   └── audit-checklist.md            # Lido governance audit checklist
+    │   └── README.md
+    ├── LICENSE.md
+    └── README.md
+
+## Methodology
+
+- **ECI (Effective Coordination Index)** — framework for scoring governance centralization, coordination barriers, and exit feasibility.
+- **GitHub Forensic Layer** — 18 evidence categories across 3 analysis modes (Structural, Temporal, Contradiction) for assessing de-facto technical sovereignty through development governance evidence. Includes composite metrics: GCM, GCDS, POCI, GMI.
+
+## Active Cases
+
+| Case | Protocol | Focus | Status |
+|------|----------|-------|--------|
+| #005 | Lido | Dual Governance, DSM control, development centralization | In Progress |
+
+## Who This Is For
+
+- Family offices and institutional allocators evaluating DeFi exposure
+- Governance researchers studying power concentration
+- Protocol teams seeking independent governance assessment
+- Risk committees requiring evidence-based governance reports
+
+---
+
+## Contact
+
+For inquiries about forensic governance assessments: [via GitHub Issues or direct contact]
+
+---
+
+*COSMODROME — We find what audits don't look for.*
