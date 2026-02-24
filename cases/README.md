@@ -1,33 +1,26 @@
-# COSMODROME — Case Studies
-
-Forensic governance assessments of specific protocols.
-
-Each case applies the COSMODROME methodology (ECI + GitHub Forensic Layer) to produce evidence-based governance risk reports.
-
----
+# COSMODROME — Case Files
 
 ## Active Cases
 
-| Case | Protocol | Archetype | Focus | Status |
-|------|----------|-----------|-------|--------|
-| #005 | Lido | Corporate-backed → Hybrid | Dual Governance, DSM control, development centralization, LDO vs code divergence | In Progress |
+| Case | Protocol | Archetype | Status | Focus |
+|------|----------|-----------|--------|-------|
+| #005 | [Lido](005-lido/) | Corporate-backed → Hybrid | In Progress | DSM control, Exit Bus Factor, LDO vs Code Divergence |
 
 ## Planned
 
-| Case | Protocol | Notes |
-|------|----------|-------|
-| #006 | MakerDAO / Sky | ESM history, spell scripts, governance contract mutations |
-| #007 | Optimism | Security council, upgrade authority, foundation vs DAO boundary |
-| #008 | Arbitrum | Nitro upgrade governance, security council tooling |
+| Case | Protocol | Target Start |
+|------|----------|-------------|
+| #006 | MakerDAO / Sky | After #005 scored |
+| #007 | Optimism | After #006 |
+| #008 | Arbitrum | After #007 |
 
-## Case Structure
+## Case #005 Structure
+cases/005-lido/
+├── audit-checklist.md          # Investigation scope, status, gaps
+└── evidence/
+└── github-evidence-public.md   # Public evidence layer
 
-Each case folder contains:
+## Methodology
 
-- `audit-checklist.md` — GitHub Forensic Layer checklist with preliminary scores
-- `evidence/` — raw data, API outputs, screenshots (added during investigation)
-- `report.md` — final forensic report (added upon completion)
-
----
-
-*Methodology: [ECI v1.0](../methodology/ECI-v1.0.md) | [GitHub Forensic Layer v2.0](../methodology/GitHub-Forensic-Layer-v2.0.md)*
+- [ECI v1.0](../methodology/ECI-v1.0.md) — Effective Coordination Index
+- [GitHub Forensic Layer v2.0](../methodology/GitHub-Forensic-Layer-v2.0.md) — 19 evidence categories, 3 modes, 4 composite metrics
