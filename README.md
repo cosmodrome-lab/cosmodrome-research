@@ -24,7 +24,7 @@ COSMODROME adds the missing layer: governance forensics — systematic analysis 
     └── README.md
 
 ## Methodology
-
+Governance monitoring infrastructure: [/MONITORING.md](./MONITORING.md) — how we collect and verify evidence across five protocols in real-time.
 - **ECI (Effective Coordination Index)** — framework for scoring governance centralization, coordination barriers, and exit feasibility.
 - **GitHub Forensic Layer v2.0** — 19 evidence categories across 3 analysis modes (Structural, Temporal, Contradiction) for assessing de-facto technical sovereignty through development governance. Includes 4 composite metrics (GCM, GCDS, POCI, GMI), mandatory reporting standard with Signal/Interpretation/Benign separation, and Red Flag Escalation Protocol.
 
@@ -46,6 +46,10 @@ COSMODROME adds the missing layer: governance forensics — systematic analysis 
 **Public (this repository):** Methodology, anonymized evidence signals, investigation scope and gaps.
 
 **Client-only (under engagement):** Identity mapping, on-chain overlap analysis, scored reports, governance latency forensics, foundation infrastructure control assessment.
+
+## Automated Evidence Collection
+
+COSMODROME assessments are supported by an automated governance monitoring system that tracks five major protocols in real-time. Changes to governance-critical files are captured, hashed, and sealed into weekly evidence packages with Merkle root verification. Details: [MONITORING.md](./MONITORING.md)
 
 ## Contact
 
