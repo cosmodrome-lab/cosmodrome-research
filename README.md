@@ -1,60 +1,141 @@
-# COSMODROME — Forensic Governance Research
+# COSMODROME Research
 
-> We find what audits don't look for.
+**Independent Forensic Governance Analysis for DeFi Infrastructure**
 
-Traditional risk management in crypto relies on two pillars: financial audits and smart contract reviews. Both are necessary. Neither is sufficient.
-
-COSMODROME adds the missing layer: governance forensics — systematic analysis of who actually controls a protocol, how power is distributed, and what happens when that power is tested.
+> *"Governance is not voting. Governance is the architecture of control."*
 
 ---
 
-## Repository Structure
+## What Is This Repository
 
-    cosmodrome-research/
-    ├── methodology/
-    │   ├── ECI-v1.0.md                        # Effective Coordination Index
-    │   └── GitHub-Forensic-Layer-v2.0.md       # GitHub evidence methodology (19 categories)
-    ├── cases/
-    │   ├── 005-lido/
-    │   │   ├── audit-checklist.md              # Investigation scope, status, gaps
-    │   │   └── evidence/
-    │   │       └── github-evidence-public.md   # Public evidence layer
-    │   └── README.md                           # Case index
-    ├── LICENSE.md
-    └── README.md
+`cosmodrome-research` is the public evidence layer of the COSMODROME forensic intelligence system.
 
-## Methodology
-Governance monitoring infrastructure: [/MONITORING.md](./MONITORING.md) — how we collect and verify evidence across five protocols in real-time.
-- **ECI (Effective Coordination Index)** — framework for scoring governance centralization, coordination barriers, and exit feasibility.
-- **GitHub Forensic Layer v2.0** — 19 evidence categories across 3 analysis modes (Structural, Temporal, Contradiction) for assessing de-facto technical sovereignty through development governance. Includes 4 composite metrics (GCM, GCDS, POCI, GMI), mandatory reporting standard with Signal/Interpretation/Benign separation, and Red Flag Escalation Protocol.
+It contains:
+- Published case study abstracts and findings
+- Forensic methodology documentation
+- Evidence integrity standards
+- The analytical frameworks used across all COSMODROME publications
 
-## Active Cases
+This repository does **not** contain operational infrastructure, monitoring pipelines, or unpublished intelligence.
 
-| Case | Protocol | Archetype | Status |
-|------|----------|-----------|--------|
-| #005 | [Lido](cases/005-lido/) | Corporate-backed → Hybrid | In Progress — public evidence layer published |
+---
 
-## Who This Is For
+## Why Governance Risk Is a Capital Risk
 
-- Institutional investors evaluating DeFi protocol governance risk
-- Fund managers conducting due diligence on token holdings
-- Risk committees assessing exposure to governance concentration
-- Researchers studying decentralization claims vs. operational reality
+DeFi protocols present themselves as decentralized, transparent, and community-governed. The forensic record tells a different story.
 
-## What We Publish vs. What We Don't
+Across the protocols we have examined, a consistent pattern emerges:
 
-**Public (this repository):** Methodology, anonymized evidence signals, investigation scope and gaps.
+- **Governance architecture is designed to minimize friction for insiders**, not to protect external capital
+- **Code changes routinely precede or bypass governance votes** — the on-chain record is the authoritative source, not the forum post
+- **Information absence is itself a signal** — what is not disclosed, not collected, or actively obscured carries forensic weight equal to what is present
+- **Token-weighted voting concentrates veto power** while distributing the appearance of participation
 
-**Client-only (under engagement):** Identity mapping, on-chain overlap analysis, scored reports, governance latency forensics, foundation infrastructure control assessment.
+COSMODROME treats governance as an engineering object, not a political one. We apply forensic methodology to primary sources: on-chain data, Git commit histories, multisig key registries, treasury flows, and validator/sequencer concentration metrics.
 
-## Automated Evidence Collection
+---
 
-COSMODROME assessments are supported by an automated governance monitoring system that tracks five major protocols in real-time. Changes to governance-critical files are captured, hashed, and sealed into weekly evidence packages with Merkle root verification. Details: [MONITORING.md](./MONITORING.md)
+## Forensic Case Registry
+
+| Case ID | Protocol | Classification | Status | Publication |
+|---------|----------|----------------|--------|-------------|
+| CASE-001 | Arbitrum (ARB) | Self-Qualifying Constitutional Override | Forthcoming | — |
+| CASE-002 | Optimism (OP) | Hostage Risk — 2-of-2 Security Council | Forthcoming | — |
+| CASE-003 | Maker / Sky (MKR) | Plutocratic ESM — $238M Coordination Threshold | Forthcoming | — |
+| CASE-004 | NEAR Protocol | Weak RTA — Governance Capture Window | Forthcoming | — |
+| CASE-005 | Hyperliquid (HYPE) | $10M/Day Unlock Pressure vs. Opaque Validator Set | Active | [Medium →](https://medium.com/@Cosmodrome-eng) |
+| CASE-006 | Aave (AAVE) | Governance Control vs. Interface Execution Layer | Published | [Medium →](https://medium.com/@Cosmodrome-eng) |
+
+Full methodology for each case is documented in [`/cases`](./cases/) *(forthcoming)*.
+
+---
+
+## Analytical Framework
+
+### Core Forensic Principle
+
+> *Dictatorship of Code over Promises.*
+
+What is deployed on-chain and what is committed to version control is the ground truth. Governance forum posts, blog announcements, and community calls are secondary sources subject to revision, deletion, and misrepresentation.
+
+### Marker System
+
+Each case study uses a color-coded marker system applied to 10 protocol-specific indicators:
+
+| Marker | Meaning |
+|--------|---------|
+| 🟢 Green | Documented, verifiable, low risk |
+| 🟡 Yellow | Partially disclosed or conditionally dependent |
+| 🔴 Red | High risk, confirmed or structurally inevitable |
+| ⚫ Black | Information absent by design or disappeared |
+| ⚠️ Triangle | Requires external dependency not under protocol control |
+
+### Four Types of Information Absence
+
+Information absence is treated as a first-class forensic signal:
+
+1. **Not collected** — the protocol does not measure or publish this data
+2. **Closed by design** — the information exists but access is restricted
+3. **Disappeared** — previously available information has been removed → *automatic risk elevation*
+4. **Obfuscated** — information is technically present but structured to prevent analysis
+
+### Evidence Integrity
+
+All source documents referenced in COSMODROME publications are:
+- Hashed at time of collection (SHA-256)
+- Timestamped against block height or commit hash where applicable
+- Classified by source type (on-chain / Git / official documentation / third-party)
+- Retained in a tamper-evident custody chain
+
+This standard exists because governance-relevant documents — including multisig configurations, upgrade proposals, and treasury disclosures — are routinely modified or deleted after publication.
+
+---
+
+## Publications
+
+All COSMODROME analytical content is published on Medium under the **Cosmodrome-eng** publication:
+
+🔗 [https://medium.com/@Cosmodrome-eng](https://medium.com/@Cosmodrome-eng)
+
+### Published Articles
+
+**Governance Is Capital Risk Series**
+- [The Harvard Effect: Why ETH ETFs Are Opening Pandora's Box for Institutional Investors](https://medium.com/@Cosmodrome-eng) — Feb 23
+- [Lido Dual Governance: Coordination Feasibility Under Stress](https://medium.com/@Cosmodrome-eng) — Feb 26 / Mar 7
+
+**Aave Governance Track**
+- [Aave: The CoW Swap Thread](https://medium.com/@Cosmodrome-eng) — Mar 14
+- [Who Actually Controls Aave](https://medium.com/@Cosmodrome-eng) — Mar 17
+
+**The $10 Million Daily Question (HYPE / Hyperliquid)**
+- Active series. Distribution across Mirror.xyz, Reddit, and X.
+
+---
+
+## Methodology Document
+
+→ [`METHODOLOGY.md`](./METHODOLOGY.md)
+
+Core analytical standards, source classification hierarchy, and the Forensic Intelligence Framework (FIF) used across all case studies.
+
+---
+
+## Evidence Integrity Standards
+
+→ [`EVIDENCE-STANDARDS.md`](./EVIDENCE-STANDARDS.md)
+
+SHA-256 verification protocol, custody chain requirements, and the four-type absence classification system.
+
+---
 
 ## Contact
 
-For inquiries about forensic governance assessments: [via GitHub Issues](https://github.com/cosmodrome-lab/cosmodrome-research/issues)
+**COSMODROME Research**
+cosmodrome-lab@proton.me
+
+For institutional inquiries, methodology licensing, or bespoke governance risk assessments.
 
 ---
 
-*COSMODROME — Forensic Intelligence Framework | February 2026*
+*COSMODROME produces independent forensic governance intelligence. We hold no positions in the protocols we analyze. All findings are based on primary source documentation available at the time of publication. This is not investment advice.*
+
