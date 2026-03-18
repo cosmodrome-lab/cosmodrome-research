@@ -1,4 +1,3 @@
-Выделяй всё от # до последней строки, копируй (Ctrl+C), вставляй в GitHub (Ctrl+V):
 Effective Coordination Index (ECI) Framework v1.0
 Overview
 The Effective Coordination Index measures the real-world feasibility of collective action within a protocol's governance system. It answers a specific question: Can stakeholders actually coordinate to protect their interests when governance conditions change adversely?
