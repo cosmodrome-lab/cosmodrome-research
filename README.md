@@ -1,4 +1,4 @@
-# COSMODROME Research
+COSMODROME Research
 
 **Independent Forensic Governance Analysis for DeFi Infrastructure**
 
@@ -43,10 +43,8 @@ COSMODROME treats governance as an engineering object, not a political one. We a
 | CASE-002 | Optimism (OP) | Hostage Risk — 2-of-2 Security Council | Forthcoming | — |
 | CASE-003 | Maker / Sky (MKR) | Plutocratic ESM — $238M Coordination Threshold | Forthcoming | — |
 | CASE-004 | NEAR Protocol | Weak RTA — Governance Capture Window | Forthcoming | — |
-| CASE-005 | Hyperliquid (HYPE) | $10M/Day Unlock Pressure vs. Opaque Validator Set | Active | [Medium →](https://medium.com/@Cosmodrome-eng) |
-| CASE-006 | Aave (AAVE) | Governance Control vs. Interface Execution Layer | Published | [Medium →](https://medium.com/@Cosmodrome-eng) |
-
-Full methodology for each case is documented in [`/cases`](./cases/) *(forthcoming)*.
+| CASE-005 | Hyperliquid (HYPE) | $10M/Day Unlock Pressure vs. Opaque Validator Set | Active | medium.com/@Cosmodrome-eng |
+| CASE-006 | Aave (AAVE) | Governance Control vs. Interface Execution Layer | Published | medium.com/@Cosmodrome-eng |
 
 ---
 
@@ -81,11 +79,7 @@ Information absence is treated as a first-class forensic signal:
 
 ### Evidence Integrity
 
-All source documents referenced in COSMODROME publications are:
-- Hashed at time of collection (SHA-256)
-- Timestamped against block height or commit hash where applicable
-- Classified by source type (on-chain / Git / official documentation / third-party)
-- Retained in a tamper-evident custody chain
+All source documents referenced in COSMODROME publications are hashed at time of collection (SHA-256), timestamped against block height or commit hash where applicable, classified by source type, and retained in a tamper-evident custody chain.
 
 This standard exists because governance-relevant documents — including multisig configurations, upgrade proposals, and treasury disclosures — are routinely modified or deleted after publication.
 
@@ -93,38 +87,27 @@ This standard exists because governance-relevant documents — including multisi
 
 ## Publications
 
-All COSMODROME analytical content is published on Medium under the **Cosmodrome-eng** publication:
-
-🔗 [https://medium.com/@Cosmodrome-eng](https://medium.com/@Cosmodrome-eng)
+All COSMODROME analytical content is published on Medium:
+**https://medium.com/@Cosmodrome-eng**
 
 ### Published Articles
 
 **Governance Is Capital Risk Series**
-- [The Harvard Effect: Why ETH ETFs Are Opening Pandora's Box for Institutional Investors](https://medium.com/@Cosmodrome-eng) — Feb 23
-- [Lido Dual Governance: Coordination Feasibility Under Stress](https://medium.com/@Cosmodrome-eng) — Feb 26 / Mar 7
+- The Harvard Effect: Why ETH ETFs Are Opening Pandora's Box for Institutional Investors — Feb 23, 2026
+- Lido Dual Governance: Coordination Feasibility Under Stress — Feb 26 / Mar 7, 2026
 
 **Aave Governance Track**
-- [Aave: The CoW Swap Thread](https://medium.com/@Cosmodrome-eng) — Mar 14
-- [Who Actually Controls Aave](https://medium.com/@Cosmodrome-eng) — Mar 17
+- Aave: The CoW Swap Thread — Mar 14, 2026
+- [Who Actually Controls Aave](https://medium.com/@Cosmodrome-eng./who-actually-controls-aave-e4a38794191e) — Mar 17, 2026
 
-**The $10 Million Daily Question (HYPE / Hyperliquid)**
-- Active series. Distribution across Mirror.xyz, Reddit, and X.
-
----
-
-## Methodology Document
-
-→ [`METHODOLOGY.md`](./METHODOLOGY.md)
-
-Core analytical standards, source classification hierarchy, and the Forensic Intelligence Framework (FIF) used across all case studies.
+**Hyperliquid / HYPE**
+- Active series. Distribution across Medium, Reddit, and X.
 
 ---
 
-## Evidence Integrity Standards
+## Methodology
 
-→ [`EVIDENCE-STANDARDS.md`](./EVIDENCE-STANDARDS.md)
-
-SHA-256 verification protocol, custody chain requirements, and the four-type absence classification system.
+See `methodology/` for the Forensic Intelligence Framework (FIF v3.2) and evidence integrity standards.
 
 ---
 
@@ -138,4 +121,3 @@ For institutional inquiries, methodology licensing, or bespoke governance risk a
 ---
 
 *COSMODROME produces independent forensic governance intelligence. We hold no positions in the protocols we analyze. All findings are based on primary source documentation available at the time of publication. This is not investment advice.*
-
