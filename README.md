@@ -1,4 +1,4 @@
-COSMODROME Research
+# COSMODROME Research
 
 **Independent Forensic Governance Analysis for DeFi Infrastructure**
 
@@ -43,8 +43,8 @@ COSMODROME treats governance as an engineering object, not a political one. We a
 | CASE-002 | Optimism (OP) | Hostage Risk — 2-of-2 Security Council | Forthcoming | — |
 | CASE-003 | Maker / Sky (MKR) | Plutocratic ESM — $238M Coordination Threshold | Forthcoming | — |
 | CASE-004 | NEAR Protocol | Weak RTA — Governance Capture Window | Forthcoming | — |
-| CASE-005 | Hyperliquid (HYPE) | $10M/Day Unlock Pressure vs. Opaque Validator Set | Active | medium.com/@Cosmodrome-eng |
-| CASE-006 | Aave (AAVE) | Governance Control vs. Interface Execution Layer | Published | medium.com/@Cosmodrome-eng |
+| CASE-005 | Hyperliquid (HYPE) | $10M/Day Unlock Pressure vs. Opaque Validator Set | Active | medium.com/@Cosmodrome-eng. |
+| CASE-006 | Aave (AAVE) | Governance Control vs. Interface Execution Layer | Published | medium.com/@Cosmodrome-eng. |
 
 ---
 
@@ -88,7 +88,7 @@ This standard exists because governance-relevant documents — including multisi
 ## Publications
 
 All COSMODROME analytical content is published on Medium:
-https://medium.com/@Cosmodrome-eng.
+**[medium.com/@Cosmodrome-eng.](https://medium.com/@Cosmodrome-eng.)**
 
 ### Published Articles
 
