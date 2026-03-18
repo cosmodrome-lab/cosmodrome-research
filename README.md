@@ -15,6 +15,7 @@ It contains:
 - Forensic methodology documentation
 - Evidence integrity standards
 - The analytical frameworks used across all COSMODROME publications
+- Automated governance monitoring infrastructure (see [MONITORING.md](./MONITORING.md))
 
 This repository does **not** contain operational infrastructure, monitoring pipelines, or unpublished intelligence.
 
