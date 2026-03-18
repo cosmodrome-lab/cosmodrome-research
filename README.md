@@ -88,7 +88,7 @@ This standard exists because governance-relevant documents — including multisi
 ## Publications
 
 All COSMODROME analytical content is published on Medium:
-**https://medium.com/@Cosmodrome-eng**
+**https://medium.com/@Cosmodrome-eng.**
 
 ### Published Articles
 
