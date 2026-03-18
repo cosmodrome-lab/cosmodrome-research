@@ -18,10 +18,11 @@ Inputs:
 - Token-weighted voting distribution (Gini coefficient)
 - Number of addresses required to reach quorum
 - Multisig composition and key holder identity (where discoverable)
-- Historical voting participation rates
-- Delegation concentration
+- Historical voting participation patterns
 
-Output: Concentration score from 0 (fully distributed) to 100 (single-entity control).
+Output: Concentration score from fully distributed to single-entity control.
+
+---
 
 ### 2. Execution Risk Assessment
 
@@ -35,6 +36,8 @@ Inputs:
 
 Output: Execution risk rating (Low / Moderate / High / Critical).
 
+---
+
 ### 3. Exit Feasibility Analysis
 
 Determines whether declared investor protection mechanisms can actually be exercised under stress conditions.
@@ -47,6 +50,8 @@ Inputs:
 - Historical precedent of exit mechanism activation
 
 Output: Exit feasibility verdict (Feasible / Constrained / Structurally Impaired).
+
+---
 
 ### 4. Infrastructure Resilience Review
 
@@ -66,13 +71,15 @@ Output: Resilience rating (Robust / Adequate / Fragile).
 
 Each dimension produces a sub-score. The composite score determines the final Grade:
 
-| Grade | Composite Score | Interpretation |
-|-------|----------------|----------------|
-| A | 80–100 | Governance structure is robust. Institutional allocation appropriate with standard monitoring. |
-| B+ | 65–79 | Governance structure is adequate with identified concentration risks. Allocation appropriate with enhanced monitoring. |
-| B | 50–64 | Material governance risks identified. Allocation requires explicit risk acceptance by investment committee. |
-| C | 30–49 | Significant structural vulnerabilities. Allocation not recommended without protocol remediation. |
-| D | 0–29 | Governance structure presents unacceptable risk for institutional capital. |
+| Grade | Interpretation |
+|-------|---------------|
+| A | Governance structure is robust. Institutional allocation appropriate with standard monitoring. |
+| B+ | Governance structure is adequate with identified concentration risks. Allocation appropriate with enhanced monitoring. |
+| B | Material governance risks identified. Allocation requires explicit risk acceptance by investment committee. |
+| C | Significant structural vulnerabilities. Allocation not recommended without protocol remediation. |
+| D | Governance structure presents unacceptable risk for institutional capital. |
+
+*Score ranges and dimension weights are disclosed in client-facing dossiers, not in public documentation.*
 
 ---
 
@@ -80,21 +87,21 @@ Each dimension produces a sub-score. The composite score determines the final Gr
 
 All evidence used in FIF assessments is graded:
 
-**Grade A Sources** (Primary / Verifiable)
+**Grade A Sources (Primary / Verifiable)**
 - On-chain transaction data
 - Smart contract source code (verified on block explorer)
 - Governance proposals and voting records
 - Official protocol documentation and specifications
 - Regulatory filings (SEC, MiCA, etc.)
 
-**Grade B Sources** (Secondary / Corroborated)
+**Grade B Sources (Secondary / Corroborated)**
 - Protocol team public statements (blog posts, forum posts, interviews)
 - Third-party analytics platforms (Dune, DefiLlama, Nansen)
 - Audited financial reports
 - Peer-reviewed academic research
 - Reputable industry publications (The Block, Bankless, CoinDesk)
 
-**Grade C Sources** (Tertiary / Uncorroborated)
+**Grade C Sources (Tertiary / Uncorroborated)**
 - Anonymous forum posts
 - Social media commentary
 - Unverified claims
