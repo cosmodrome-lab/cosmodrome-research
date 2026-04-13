@@ -1,139 +1,49 @@
-# COSMODROME Research
+ # COSMODROME
 
-**Independent Forensic Governance Analysis for DeFi Infrastructure**
+**Independent Forensic Intelligence**
+
+We investigate governance, control, custody, and structural trust risk across digital asset systems.
+
+We do not produce promotional research. We do not sell narrative. We do not rely on management framing as a substitute for verification.
+
+---
+
+## What You Can Commission
+
+**Preliminary Forensic Snapshot**
+One object. One defined risk question. Executive summary and initial control concerns, delivered confidentially.
+
+**Focused Forensic Review**
+Scoped investigation of a defined protocol surface, control zone, or actor cluster.
+
+**Custom Confidential Investigation**
+Structured only after scope alignment and Terms of Reference. Strictly confidential.
+
+---
+
+## What We Investigate
+
+Crypto protocols — control architecture, governance concentration, upgrade authority, treasury exposure, operational dependency, and disclosure failure.
+
+Blockchain-related companies and products — verifiability limits, hidden control, supply-chain exposure, and structural weaknesses behind public claims.
+
+Hardware security products — devices for storing and managing cryptographic keys. Declared standards and independent verification are not the same thing.
+
+Payment infrastructure — blockchain transfers and settlement systems. Structural risks and points of dependency.
+
+---
 
 > *"Governance is not voting. Governance is the architecture of control."*
 
 ---
 
-## What COSMODROME Is
+Public materials are selective by design. Client work is private by default. Nothing is disclosed without explicit written authorization.
 
-COSMODROME is not a monitoring tool. It is a forensic intelligence system for institutional investors in DeFi.
-
-The difference is structural:
-
-- Monitoring answers: *"what is happening?"*
-- COSMODROME answers: *"what does this change about an investor's risk position?"*
-
-Competitors such as Gauntlet and Chaos Labs work for protocols. COSMODROME works for investors. This is a different product by design — there is no conflict of interest with the entities under review.
-
-**The 72–120 hour advantage.** Every on-chain governance action follows a sequence: GitHub commit → PR merge → Timelock → On-chain execution. The industry watches the last step. COSMODROME watches the first three. That is a 72 to 120 hour early warning window — observable in public data, systematically ignored by everyone else.
-
----
-
-## What Is This Repository
-
-`cosmodrome-research` is the public evidence layer of the COSMODROME forensic intelligence system.
-
-It contains:
-- Published case study abstracts and findings
-- Forensic methodology documentation
-- Evidence integrity standards
-- The analytical frameworks used across all COSMODROME publications
-- Automated governance monitoring infrastructure (see [MONITORING.md](./MONITORING.md))
-
-This repository does **not** contain operational infrastructure, monitoring pipelines, or unpublished intelligence.
-
----
-
-## Why Governance Risk Is a Capital Risk
-
-DeFi protocols present themselves as decentralized, transparent, and community-governed. The forensic record tells a different story.
-
-Across the protocols we have examined, a consistent pattern emerges:
-
-- **Governance architecture is designed to minimize friction for insiders**, not to protect external capital
-- **Code changes routinely precede or bypass governance votes** — the on-chain record is the authoritative source, not the forum post
-- **Information absence is itself a signal** — what is not disclosed, not collected, or actively obscured carries forensic weight equal to what is present
-- **Token-weighted voting concentrates veto power** while distributing the appearance of participation
-
-COSMODROME treats governance as an engineering object, not a political one. We apply forensic methodology to primary sources: on-chain data, Git commit histories, multisig key registries, treasury flows, and validator/sequencer concentration metrics.
-
----
-
-## Forensic Case Registry
-
-| Case ID | Protocol | Classification | Status | Publication |
-|---------|----------|----------------|--------|-------------|
-| CASE-001 | Arbitrum (ARB) | Self-Qualifying Constitutional Override | Forthcoming | — |
-| CASE-002 | Optimism (OP) | Hostage Risk — 2-of-2 Security Council | Forthcoming | — |
-| CASE-003 | Maker / Sky (MKR) | Plutocratic ESM — $238M Coordination Threshold | Forthcoming | — |
-| CASE-004 | NEAR Protocol | Weak RTA — Governance Capture Window | Forthcoming | — |
-| CASE-005 | Hyperliquid (HYPE) | $10M/Day Unlock Pressure vs. Opaque Validator Set | Active | medium.com/@Cosmodrome-eng. |
-| CASE-006 | Aave (AAVE) | Governance Control vs. Interface Execution Layer | Published | medium.com/@Cosmodrome-eng. |
-
----
-
-## Analytical Framework
-
-### Core Forensic Principle
-
-> *Dictatorship of Code over Promises.*
-
-What is deployed on-chain and what is committed to version control is the ground truth. Governance forum posts, blog announcements, and community calls are secondary sources subject to revision, deletion, and misrepresentation.
-
-### Marker System
-
-Each case study uses a color-coded marker system applied to 10 protocol-specific indicators:
-
-| Marker | Meaning |
-|--------|---------|
-| 🟢 Green | Documented, verifiable, low risk |
-| 🟡 Yellow | Partially disclosed or conditionally dependent |
-| 🔴 Red | High risk, confirmed or structurally inevitable |
-| ⚫ Black | Information absent by design or disappeared |
-| ⚠️ Triangle | Requires external dependency not under protocol control |
-
-### Four Types of Information Absence
-
-Information absence is treated as a first-class forensic signal:
-
-1. **Not collected** — the protocol does not measure or publish this data
-2. **Closed by design** — the information exists but access is restricted
-3. **Disappeared** — previously available information has been removed → *automatic risk elevation*
-4. **Obfuscated** — information is technically present but structured to prevent analysis
-
-### Evidence Integrity
-
-All source documents referenced in COSMODROME publications are hashed at time of collection (SHA-256), timestamped against block height or commit hash where applicable, classified by source type, and retained in a tamper-evident custody chain.
-
-This standard exists because governance-relevant documents — including multisig configurations, upgrade proposals, and treasury disclosures — are routinely modified or deleted after publication.
-
----
-
-## Publications
-
-All COSMODROME analytical content is published on Medium:
-**[medium.com/@Cosmodrome-eng.](https://medium.com/@Cosmodrome-eng.)**
-
-### Published Articles
-
-**Governance Is Capital Risk Series**
-- The Harvard Effect: Why ETH ETFs Are Opening Pandora's Box for Institutional Investors — Feb 23, 2026
-- Lido Dual Governance: Coordination Feasibility Under Stress — Feb 26 / Mar 7, 2026
-
-**Aave Governance Track**
-- Aave: The CoW Swap Thread — Mar 14, 2026
-- [Who Actually Controls Aave](https://medium.com/@Cosmodrome-eng./who-actually-controls-aave-e4a38794191e) — Mar 17, 2026
-
-**Hyperliquid / HYPE**
-- Active series. Distribution across Medium, Reddit, and X.
-
----
-
-## Methodology
-
-See `methodology/` for the Forensic Intelligence Framework (FIF v3.2) and evidence integrity standards.
+COSMODROME exists for one purpose: to determine what can actually be verified, where real control resides, and what risk remains after the public story ends.
 
 ---
 
 ## Contact
 
-**COSMODROME Research**
-cosmodrome-lab@proton.me
-
-For institutional inquiries, methodology licensing, or bespoke governance risk assessments.
-
----
-
-*COSMODROME produces independent forensic governance intelligence. We hold no positions in the protocols we analyze. All findings are based on primary source documentation available at the time of publication. This is not investment advice.*
+**cosmodrome-lab@proton.me**
+[@CosmodromeX](https://x.com/CosmodromeX)
