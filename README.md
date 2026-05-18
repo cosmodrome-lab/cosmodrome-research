@@ -66,5 +66,6 @@ COSMODROME exists for one purpose: to determine what can actually be verified, w
 
 ## Contact
 
-**cosmodrome-lab@proton.me**
+cosmodrome-lab@proton.me
+
 [@CosmodromeX](https://x.com/CosmodromeX)
