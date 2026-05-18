@@ -4,6 +4,9 @@
 
 We investigate governance, control, custody, and structural trust risk across digital asset systems.
 
+We document what already happened — or what is about to —
+before it becomes public.
+
 We do not produce promotional research. We do not sell narrative. We do not rely on management framing as a substitute for verification.
 
 ---
@@ -36,6 +39,24 @@ Payment infrastructure — blockchain transfers and settlement systems. Structur
 > *"Governance is not voting. Governance is the architecture of control."*
 
 ---
+
+## What We Have Found
+
+> *Hyperliquid, October 2025.*  
+> Governance override executed in under 2 minutes.  
+> Settlement changed before public disclosure.  
+> The sequence is on-chain. The timeline does not lie.
+
+> *Supply mechanics, multiple protocols, 2025.*  
+> Unlock schedules and staking absorption are not disclosed  
+> symmetrically to all market participants.  
+> We documented the asymmetry before it became a market event.
+
+> *Governance architecture, major L2 protocols.*  
+> The gap between declared governance and actual control  
+> is measurable. We measured it.
+
+→ [Extended public research on Medium](https://medium.com/@Cosmodrome-eng.)
 
 Public materials are selective by design. Client work is private by default. Nothing is disclosed without explicit written authorization.
 
