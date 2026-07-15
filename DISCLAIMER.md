@@ -8,4 +8,4 @@ Nothing published here constitutes investment advice or trading recommendations.
 
 We are currently conducting active research in both private and public domains. The Hyperliquid (HYPE) investigation is published openly due to its significant importance for the broader crypto market and the ongoing processes of decentralization. Investigations into other major protocols are also underway and will be released publicly as the work is completed.
 
-We welcome engagement from researchers, on-chain analysts, and individuals who share our approach to verification over narrative. Meaningful collaboration requests are reviewed on a case-by-case basis after initial contact.
+We welcome researchers, on-chain analysts, and independent investigators who are interested in structural and forensic analysis. Meaningful collaboration requests are reviewed on a case-by-case basis after initial contact.
