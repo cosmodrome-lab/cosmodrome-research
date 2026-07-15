@@ -1,7 +1,9 @@
 # Disclaimer
 
-COSMODROME conducts forensic investigations on a strictly confidential basis.
+COSMODROME conducts independent forensic investigations on a strictly confidential basis.
 
-Public materials published in this repository or on related public platforms are selective showcase materials only. They do not disclose client engagements, internal methodology, operational workflows, or the full depth of investigative work.
+All public materials in this repository are **selective showcase** publications. They do not reveal client work, proprietary methodology, or the full scope of our research.
 
-Nothing published by COSMODROME should be interpreted as investment advice, trading guidance, or a recommendation to buy, sell, or hold any asset.
+Nothing published here constitutes investment advice or trading recommendations.
+
+We are building a body of public forensic research and welcome engagement from researchers, on-chain analysts, and individuals who share our approach to verification over narrative. Meaningful collaboration requests are reviewed on a case-by-case basis after initial contact.
