@@ -42,16 +42,16 @@ If you have data, sources, or expertise on any of these questions, open an Issue
 ### Latest Publications
 
 - **HYPE: Follow the Money** — Structural analysis of revenue, buybacks, and supply control  
-  https://medium.com/@Cosmodrome-eng./hype-follow-the-money-e9558e4e85ad
+  https://medium.com/@Cosmodrome-eng/hype-follow-the-money-e9558e4e85ad
 
 - **HYPE: When Liquidity Is Not Enough** — Absorption layers and structural risk  
-  https://medium.com/@Cosmodrome-eng./hype-when-liquidity-is-not-enough
+  https://medium.com/@Cosmodrome-eng/hype-when-liquidity-is-not-enough
 
 - **HYPE: Built by Market Makers** — Origins and control architecture  
-  https://medium.com/@Cosmodrome-eng./hype-built-by-market-makers-4fa5074e2c14
+  https://medium.com/@Cosmodrome-eng/hype-built-by-market-makers-4fa5074e2c14
 
 - **HYPE: The Buyback Machine** — ETF narrative vs reality  
-  https://medium.com/@Cosmodrome-eng./hype-the-buyback-machine-the-etf-narrative-is-standing-in-front-of-3f8f1353d97c
+  https://medium.com/@Cosmodrome-eng/hype-the-buyback-machine-the-etf-narrative-is-standing-in-front-of-3f8f1353d97c
 
 Full series and detailed forensic card index available on Medium.
 
