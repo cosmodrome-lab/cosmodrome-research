@@ -16,7 +16,8 @@ Our work is independent of promotional, management, and market narratives.
 
 HYPE is published openly as a research showcase.
 
-→ [COSMODROME Research on Medium](https://medium.com/@Cosmodrome-eng)
+→ [All Publications](PUBLICATIONS.md)  
+→ [COSMODROME Research on Medium](https://medium.com/@Cosmodrome-eng.)
 
 ## Private Work
 
