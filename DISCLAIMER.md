@@ -1,11 +1,15 @@
 # Disclaimer
 
-COSMODROME conducts independent forensic investigations on a strictly confidential basis.
+COSMODROME conducts independent forensic research and analysis.
 
-All public materials in this repository are **selective showcase** publications. They do not reveal client work, proprietary methodology, or the full scope of our research.
+Public materials are selective research showcases. They do not disclose client work or the full scope of private investigations.
 
-Nothing published here constitutes investment advice or trading recommendations.
+Methodology is not published in this repository.
 
-We are currently conducting active research in both private and public domains. The Hyperliquid (HYPE) investigation is published openly due to its significant importance for the broader crypto market and the ongoing processes of decentralization. Investigations into other major protocols are also underway and will be released publicly as the work is completed.
+HYPE is published openly as a research showcase. Other work is not on a public release schedule.
 
-We welcome researchers, on-chain analysts, and independent investigators who are interested in structural and forensic analysis. Meaningful collaboration requests are reviewed on a case-by-case basis after initial contact.
+Nothing published here constitutes investment advice, legal advice, or a trading recommendation.
+
+Client work is private, confidential, and not publicly disclosed without explicit authorization.
+
+Research and collaboration requests are reviewed individually after initial contact.
