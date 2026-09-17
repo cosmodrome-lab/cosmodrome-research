@@ -13,4 +13,5 @@ Complete index of COSMODROME public research.
 - 2026-07-30 — [HYPE. The Smart Contract That Doesn’t Control the Protocol](https://medium.com/@Cosmodrome-eng./hype-the-smart-contract-that-doesnt-control-the-protocol-e8127c42c525)
 - 2026-07-28 — [HYPE. The Chameleon in a Suit](https://medium.com/@Cosmodrome-eng./hype-the-chameleon-in-a-suit-5033bd59b20d)
 - 2026-07-26 — [The $59 Gas Token. How a Utility Token Became “Infrastructure” for the S&P 500](https://medium.com/@Cosmodrome-eng./the-59-gas-token-how-a-utility-token-became-infrastructure-for-the-s-p-500-01458f45bab6)
+- 2026-07-18 — [Hyperliquid: Centralization as Strategy. Managed Deficit](https://medium.com/@Cosmodrome-eng./hyperliquid-centralization-as-strategy-managed-deficit-7038a7ecbb9e)
 - 2026-02-15 — [COSMODROME: Governance Forensics for Adversarial Markets](https://medium.com/@Cosmodrome-eng./cosmodrome-governance-forensics-for-adversarial-markets-crypto-verifies-transactions-with-e976f7faa09f)
