@@ -4,6 +4,8 @@ Complete index of COSMODROME public research.
 
 ## 2026
 
+- 2026-09-21 — [Hyperliquid: The 80% Threshold Was Crossed. Here Is What Actually Happened.](https://medium.com/@Cosmodrome-eng./hyperliquid-the-80-threshold-was-crossed-here-is-what-actually-happened-35bd3c55cbcc)
+- 2026-09-20 — [Hyperliquid Manual Borrows: The Chameleon Changes Color, but the Circuit Stays the Same](https://medium.com/@Cosmodrome-eng./hyperliquid-manual-borrows-the-chameleon-changes-color-but-the-circuit-stays-the-same-c0b3140dcece)
 - 2026-09-08 — [Hyperliquid. From Gas Token to Nasdaq](https://medium.com/@Cosmodrome-eng./hyperliquid-from-gas-token-to-nasdaq-954c680ef26b)
 - 2026-08-15 — [Hyperliquid: Architectural Eclecticism and the Underside of “Decentralization”](https://medium.com/@Cosmodrome-eng./hyperliquid-architectural-eclecticism-and-the-underside-of-decentralization-47ba6eaf0be4)
 - 2026-08-13 — [HYPE. The Myth of the 97–99% Burn: Anatomy of a “Decentralized” Deficit](https://medium.com/@Cosmodrome-eng./hype-the-myth-of-the-97-99-burn-anatomy-of-a-decentralized-deficit-085808fe80d2)
