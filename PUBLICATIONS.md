@@ -4,6 +4,7 @@ Complete index of COSMODROME public research.
 
 ## 2026
 
+- 2026-10-16 — [HYPE. The Chameleon Pours Past the Order Book: $329 Million in One Set of Hands and a Closed Entry…](https://medium.com/@Cosmodrome-eng./hype-the-chameleon-pours-past-the-order-book-329-million-in-one-set-of-hands-and-a-closed-entry-77b9b201d14e)
 - 2026-09-21 — [Hyperliquid: The 80% Threshold Was Crossed. Here Is What Actually Happened.](https://medium.com/@Cosmodrome-eng./hyperliquid-the-80-threshold-was-crossed-here-is-what-actually-happened-35bd3c55cbcc)
 - 2026-09-20 — [Hyperliquid Manual Borrows: The Chameleon Changes Color, but the Circuit Stays the Same](https://medium.com/@Cosmodrome-eng./hyperliquid-manual-borrows-the-chameleon-changes-color-but-the-circuit-stays-the-same-c0b3140dcece)
 - 2026-09-08 — [Hyperliquid. From Gas Token to Nasdaq](https://medium.com/@Cosmodrome-eng./hyperliquid-from-gas-token-to-nasdaq-954c680ef26b)
